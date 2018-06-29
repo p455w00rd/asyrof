@@ -101,6 +101,10 @@ span.psw {
     from {transform: scale(0)}
     to {transform: scale(1)}
 }
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
@@ -112,6 +116,40 @@ span.psw {
        width: 100%;
     }
 }
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+.modal-footer {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 200px;
+}
+
 <script>
 var modal = document.getElementById('id01');
 window.onclick = function(event) {
